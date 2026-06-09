@@ -21,10 +21,10 @@ function Footer() {
           <div className="footer-col">
             <h4>Clinics</h4>
             <ul>
-              <li><a href="#">For GP clinics</a></li>
-              <li><a href="#">For emergency</a></li>
-              <li><a href="#">For specialty</a></li>
-              <li><a href="#">For multi-location</a></li>
+              <li><a href="clinics-gp.html">For GP clinics</a></li>
+              <li><a href="clinics-emergency.html">For emergency</a></li>
+              <li><a href="clinics-specialty.html">For specialty</a></li>
+              <li><a href="clinics-multi-location.html">For multi-location</a></li>
             </ul>
           </div>
           <div className="footer-col">
