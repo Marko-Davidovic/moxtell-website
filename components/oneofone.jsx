@@ -173,6 +173,7 @@ function OneOfOneDashboard() {
 
 function OneOfOne() {
   const ref = useReveal();
+  const [openIdx, setOpenIdx] = useState(null);
   const items = [
     { letter: "A", tag: "Bespoke", emoji: "🛠️", title: "Each voice agent is built from scratch.", body: "We engineer her prompt, her workflows, her integrations, and her guardrails for one clinic. Your hours. Your doctors. Your services. Your refill policy. Your emergency rules." },
     { letter: "B", tag: "Your voice", emoji: "🎙️", title: "She sounds like your team.", body: "Agent speaks the way your clinic speaks. We tune her tone, pacing, and language to match how your front desk actually talks to clients friendly, calm, professional. Bilingual where you need her to be." },
@@ -200,16 +201,30 @@ function OneOfOne() {
           </div>
 
           <div className="ofo-split-right">
-            {items.map((it, i) => (
-              <div key={it.letter} className={`ofo-item reveal reveal-delay-${i % 4}`}>
-                <div className="ofo-letter">{it.letter}</div>
-                <div className="ofo-item-body">
-                  <div className="ofo-item-tag">{it.emoji} {it.tag}</div>
-                  <h3 className="ofo-item-title">{it.title}</h3>
-                  <p className="ofo-item-text">{it.body}</p>
+            {items.map((it, i) => {
+              const isOpen = openIdx === i;
+              return (
+                <div
+                  key={it.letter}
+                  className={`ofo-item reveal reveal-delay-${i % 4}${isOpen ? " ofo-item--open" : ""}`}
+                  onClick={() => setOpenIdx(isOpen ? null : i)}
+                >
+                  <div className="ofo-letter">{it.letter}</div>
+                  <div className="ofo-item-body">
+                    <div className="ofo-item-tag">{it.emoji} {it.tag}</div>
+                    <h3 className="ofo-item-title">
+                      {it.title}
+                      <span className="ofo-item-chevron" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                      </span>
+                    </h3>
+                    <p className="ofo-item-text">{it.body}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
 

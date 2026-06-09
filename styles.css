@@ -2592,6 +2592,35 @@ a { color: inherit; text-decoration: none; }
   margin: 0;
 }
 
+/* Mobile accordion — hide body text, reveal on click */
+.ofo-item-chevron { display: none; }
+
+@media (max-width: 768px) {
+  .ofo-item { cursor: pointer; }
+  .ofo-item-chevron {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 6px;
+    color: var(--teal);
+    transition: transform 0.25s ease;
+  }
+  .ofo-item--open .ofo-item-chevron {
+    transform: rotate(180deg);
+  }
+  .ofo-item-text {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin-top: 0;
+    transition: max-height 0.35s ease, opacity 0.3s ease, margin-top 0.3s ease;
+  }
+  .ofo-item--open .ofo-item-text {
+    max-height: 300px;
+    opacity: 1;
+    margin-top: 10px;
+  }
+}
+
 .ofo-foot {
   margin-top: 96px;
   text-align: center;
