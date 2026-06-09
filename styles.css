@@ -527,7 +527,11 @@ a { color: inherit; text-decoration: none; }
   overflow: visible;
 }
 @media (max-width: 800px) {
-  .hero-cta-hint { display: none; }
+  .hero-cta-hint {
+    top: -52px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .hero-cta-hint span {
   font-family: 'Caveat', cursive;
