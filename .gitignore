@@ -2,8 +2,8 @@
 screenshots/
 uploads/
 
-# Audio files (too large for GitHub)
-assets/demo/*.mp3
+# Old/unused audio files only
+assets/demo/royal-vet-demo.mp3
 
 # OS files
 .DS_Store
