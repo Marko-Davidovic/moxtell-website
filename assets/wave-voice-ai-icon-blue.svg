@@ -1,0 +1,30 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Wave Voice AI Icon</title>
+  <desc>Elegant geometric wave mark inspired by an audio waveform and the letter W.</desc>
+
+  <g transform="translate(92 118)">
+    <path d="M36 394H166"
+          stroke="rgba(0, 113, 227, 0.88)"
+          stroke-width="54"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <path d="M166 394
+             L236 142
+             L330 646
+             L420 64
+             L510 646
+             L604 142
+             L674 394"
+          stroke="rgba(0, 113, 227, 0.88)"
+          stroke-width="64"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <path d="M674 394H804"
+          stroke="rgba(0, 113, 227, 0.88)"
+          stroke-width="54"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+  </g>
+</svg>

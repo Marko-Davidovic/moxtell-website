@@ -1,0 +1,34 @@
+# Wave Voice AI
+
+Wave Voice AI is an AI phone assistant for veterinary clinics.
+
+Wave Voice AI helps veterinary teams answer routine calls, collect client and pet information, support appointment requests, route urgent calls, and reduce front desk pressure so staff can focus on pets and owners in the clinic.
+
+## Primary pages
+
+- Homepage: https://wavevoice.ai/
+- About: https://wavevoice.ai/About.html
+- How it works: https://wavevoice.ai/Product.html
+- FAQ: https://wavevoice.ai/FAQ.html
+- Veterinary AI phone assistant: https://wavevoice.ai/veterinary-ai-phone-assistant.html
+
+## What Wave Voice AI does
+
+- Answers routine veterinary clinic phone calls.
+- Collects client and pet information.
+- Supports booking or routing appointment requests.
+- Helps with basic clinic questions and follow-ups.
+- Routes urgent calls to the right person or workflow.
+- Gives front desk staff more time for in-person client care.
+
+## Who it is for
+
+Wave Voice AI is built for veterinary clinics, animal hospitals, and multi-location veterinary groups that want fewer missed calls, less staff stress, and a calmer front desk experience.
+
+## Positioning
+
+Wave Voice AI does not replace receptionists. It supports the front desk by handling repetitive phone work in the background so people can focus on care, hospitality, and client relationships.
+
+## Contact / conversion
+
+Clinics can book a demo from the Wave Voice AI website.

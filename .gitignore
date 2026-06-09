@@ -1,0 +1,14 @@
+# Screenshots & uploads
+screenshots/
+uploads/
+
+# Audio files (too large for GitHub)
+assets/demo/*.mp3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

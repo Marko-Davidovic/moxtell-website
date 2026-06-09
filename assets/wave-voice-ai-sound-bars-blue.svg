@@ -1,0 +1,13 @@
+<svg width="1024" height="640" viewBox="0 0 1024 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Wave Voice AI Sound Bars Icon</title>
+  <desc>Minimal rounded sound-wave bars icon in blue.</desc>
+
+  <g transform="translate(0 0)">
+    <rect x="236" y="250" width="44" height="112" rx="22" fill="rgba(0, 113, 227, 0.88)"/>
+    <rect x="336" y="172" width="44" height="282" rx="22" fill="rgba(0, 113, 227, 0.88)"/>
+    <rect x="436" y="80" width="44" height="480" rx="22" fill="rgba(0, 113, 227, 0.88)"/>
+    <rect x="536" y="202" width="44" height="214" rx="22" fill="rgba(0, 113, 227, 0.88)"/>
+    <rect x="636" y="142" width="44" height="342" rx="22" fill="rgba(0, 113, 227, 0.88)"/>
+    <rect x="736" y="250" width="44" height="112" rx="22" fill="rgba(0, 113, 227, 0.88)"/>
+  </g>
+</svg>
