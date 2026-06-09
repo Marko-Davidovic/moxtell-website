@@ -65,14 +65,6 @@ function Hero() {
 
         <div className="hero-arini-cta reveal reveal-delay-2">
           <div className="hero-hear-wrap">
-            <button className="see-action-btn" onClick={goDemo} aria-label="Hear demo">
-              <span className="see-action-play">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff" aria-hidden="true">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </span>
-              <span className="see-action-label">Hear Demo</span>
-            </button>
             <div className="hero-cta-hint" aria-hidden="true">
               <span>click to listen</span>
               <svg width="42" height="42" viewBox="0 0 42 42" fill="none" style={{display:"block", overflow:"visible"}}>
@@ -81,6 +73,14 @@ function Hero() {
                 <path d="M36 34 L34 25" stroke="#6B7280" strokeWidth="1.6" strokeLinecap="round" fill="none"/>
               </svg>
             </div>
+            <button className="see-action-btn" onClick={goDemo} aria-label="Hear demo">
+              <span className="see-action-play">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff" aria-hidden="true">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </span>
+              <span className="see-action-label">Hear Demo</span>
+            </button>
           </div>
           <a className="hero-book-btn" href="https://cal.com/dental-clinic/30min?overlayCalendar=true" target="_blank" rel="noopener noreferrer" aria-label="Book demo">
             Book Demo
