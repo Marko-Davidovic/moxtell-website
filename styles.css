@@ -2473,6 +2473,11 @@ a { color: inherit; text-decoration: none; }
   color: var(--teal-2);
 }
 @keyframes lineIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+@media (max-width: 768px) {
+  .tr-line.past { display: none; }
+  .tr-line.current { font-size: clamp(18px, 4.5vw, 24px); }
+}
 .tr-caret {
   display: inline-block;
   margin-left: 2px;
