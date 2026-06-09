@@ -175,7 +175,7 @@ function OneOfOne() {
   const ref = useReveal();
   const [openIdx, setOpenIdx] = useState(null);
   const items = [
-    { letter: "A", tag: "Bespoke", emoji: "🛠️", title: "Each voice agent is built from scratch.", body: "We engineer her prompt, her workflows, her integrations, and her guardrails for one clinic. Your hours. Your doctors. Your services. Your refill policy. Your emergency rules." },
+    { letter: "A", tag: "Bespoke", emoji: "🛠️", title: "Voice intelligence built for your clinic.", body: "We engineer her prompt, her workflows, her integrations, and her guardrails for one clinic. Your hours. Your doctors. Your services. Your refill policy. Your emergency rules." },
     { letter: "B", tag: "Your voice", emoji: "🎙️", title: "She sounds like your team.", body: "Agent speaks the way your clinic speaks. We tune her tone, pacing, and language to match how your front desk actually talks to clients friendly, calm, professional. Bilingual where you need her to be." },
     { letter: "C", tag: "Done for you", emoji: "📦", title: "You review. We ship.", body: "No DIY dashboards. No prompt engineering. We build the full agent, integrate your calendar or PIMS, wire the SMS flows, and bring you a finished agent. You listen to her, give notes, we iterate, and we go live." },
     { letter: "D", tag: "Partner", emoji: "🤝", title: "We stay with you after launch.", body: "New doctor joining? Refill policy changed? Adding boarding services? We update your Agent. We watch the calls with you, find friction, and fix it. Direct line to the team that built to help desk ticket queue." },
