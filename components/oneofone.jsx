@@ -206,7 +206,7 @@ function OneOfOne() {
               return (
                 <div
                   key={it.letter}
-                  className={`ofo-item reveal reveal-delay-${i % 4}${isOpen ? " ofo-item--open" : ""}`}
+                  className={`ofo-item reveal reveal-delay-${i % 4} visible${isOpen ? " ofo-item--open" : ""}`}
                   onClick={() => setOpenIdx(isOpen ? null : i)}
                 >
                   <div className="ofo-letter">{it.letter}</div>
