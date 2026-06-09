@@ -60,7 +60,7 @@ function Problem() {
 
       <div className="problem-note reveal">
         The front desk problem is not your staff. It is the call volume.
-        <span className="problem-note-sub">Emily fixes this problem and turns your lost calls into profit.</span>
+        <span className="problem-note-sub">Fixes this problem and turns your lost calls into profit.</span>
         <a className="hero-book-btn problem-note-btn" href="https://cal.com/dental-clinic/30min?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
           Book Consultation
         </a>

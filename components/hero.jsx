@@ -60,7 +60,7 @@ function Hero() {
         <h1 className="hero-arini-title reveal">
           The AI Front Desk<br/>
           <span className="muted-fragment">for Veterinary Clinics.</span><br/>
-          <span>Zero missed calls, 24/7.</span>
+          <span>Zero missed calls 24/7.</span>
         </h1>
 
         <div className="hero-arini-cta reveal reveal-delay-2">
