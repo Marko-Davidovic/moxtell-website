@@ -660,23 +660,20 @@ a { color: inherit; text-decoration: none; }
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0;
-  overflow: hidden;
+  gap: 16px;
+  border-radius: var(--radius-md);
+}
+.problem-card {
+  min-height: 230px;
+  padding: clamp(24px, 2.6vw, 36px);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
   background:
     radial-gradient(circle at 82% 20%, rgba(48, 113, 224, 0.08), transparent 34%),
     linear-gradient(180deg, #fff 0%, var(--bg) 100%);
-  box-shadow: 0 24px 70px rgba(30, 68, 128, 0.07);
+  box-shadow: 0 8px 24px rgba(30, 68, 128, 0.05);
 }
-.problem-card {
-  min-height: 230px;
-  padding: clamp(24px, 2.6vw, 36px);
-  border-right: 1px solid var(--line-soft);
-}
-.problem-card:last-child {
-  border-right: 0;
-}
+.problem-card:last-child {}
 .problem-card-top {
   display: flex;
   align-items: center;
