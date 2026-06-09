@@ -28,7 +28,7 @@ function ROI() {
         <div className="roi-head reveal">
           <div className="eyebrow">◦ ROI Calculator</div>
           <h2 className="h-xl" style={{ marginTop: 16, fontSize: "clamp(28px, 3.6vw, 52px)" }}>
-                How Much Revenue Are Missed Calls Costing Your Clinic?
+                How Much Revenue Are <br>Missed Calls</br> Costing Your Clinic?
           </h2>
           <p style={{ marginTop: 16, color: "var(--muted)", fontSize: 17, lineHeight: 1.55, maxWidth: 560, marginLeft: "auto", marginRight: "auto" }}>
             Fill in what applies to your clinic. We'll show you the revenue impact.
