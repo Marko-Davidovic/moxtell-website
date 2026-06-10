@@ -211,6 +211,45 @@ function ProductPage() {
 
         <Trust />
 
+        {/* PIMS Integrations */}
+        <section className="pims-section wrap reveal">
+          <div className="pims-head">
+            <div className="eyebrow">◦ Integrations</div>
+            <h2 className="h-xl" style={{ marginTop: 16 }}>
+              Works with your <span className="serif-italic" style={{ color: "var(--teal)" }}>existing PIMS.</span>
+            </h2>
+            <p className="lede" style={{ marginTop: 16, color: "var(--ink-2)", maxWidth: 600, marginLeft: "auto", marginRight: "auto" }}>
+              Emily connects to the practice management systems used by 79% of North American veterinary clinics.
+            </p>
+          </div>
+
+          <div className="pims-grid">
+            {[
+              { name: "Avimark",      badge: "Covetrus",  share: "25.4%" },
+              { name: "Cornerstone",  badge: "IDEXX",     share: "19.5%" },
+              { name: "ezyVet",       badge: "IDEXX",     share: "16.5%" },
+              { name: "Pulse",        badge: "Covetrus",  share: "7.4%"  },
+              { name: "Shepherd",     badge: "Cloud",     share: "4.2%"  },
+              { name: "Neo",          badge: "IDEXX",     share: "4.0%"  },
+              { name: "DaySmart",     badge: "Cloud",     share: "4.0%"  },
+              { name: "Vetspire",     badge: "Cloud",     share: "3.2%"  },
+            ].map(p => (
+              <div key={p.name} className="pims-card">
+                <div className="pims-card-name">{p.name}</div>
+                <div className="pims-card-meta">
+                  <span className="pims-badge">{p.badge}</span>
+                  <span className="pims-share">{p.share} market share</span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="pims-footnote">
+            Source: Kynetec PRJ17655, n=1,155 — North American PIMS Share of Market, April 2026.
+            Don't see your PIMS? <a href="https://cal.com/dental-clinic/30min?overlayCalendar=true" target="_blank" rel="noopener noreferrer">Ask us about your system →</a>
+          </p>
+        </section>
+
         <section className="seo-cta wrap reveal">
           <h2 className="h-xl">Want to see how it would work for your clinic?</h2>
           <p>Bring your phone workflow, appointment rules, and common call types. We will show how Moxtell can fit your front desk.</p>
