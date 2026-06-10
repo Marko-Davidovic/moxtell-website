@@ -10,13 +10,9 @@ const PIMS_LIST = [
   { name: "Impromed",    vendor: "Covetrus", color: "#2D7D46" },
 ];
 
-function PimsTile({ name, vendor, color }) {
-  const initials = name.slice(0, 2).toUpperCase();
+function PimsTile({ name }) {
   return (
     <div className="pims-ticker-tile">
-      <div className="pims-ticker-mark" style={{ background: color + "14", color }}>
-        {initials}
-      </div>
       <span className="pims-ticker-name">{name}</span>
     </div>
   );
