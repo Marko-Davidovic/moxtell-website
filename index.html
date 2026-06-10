@@ -141,5 +141,22 @@
 <script type="text/babel" src="components/cta.jsx?v=3"></script>
 <script type="text/babel" src="components/footer.jsx?v=14"></script>
 <script type="text/babel" src="app.jsx?v=9"></script>
+<script>
+  // Scroll to hash after React renders (React replaces DOM before browser can scroll)
+  window.addEventListener("load", function() {
+    var hash = window.location.hash;
+    if (!hash) return;
+    var attempts = 0;
+    var interval = setInterval(function() {
+      var el = document.querySelector(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+        clearInterval(interval);
+      } else if (++attempts > 20) {
+        clearInterval(interval);
+      }
+    }, 100);
+  });
+</script>
 </body>
 </html>
