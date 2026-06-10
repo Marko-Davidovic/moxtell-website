@@ -14,7 +14,7 @@ function Footer() {
             <h4>Product</h4>
             <ul>
               <li><a href="veterinary-ai-phone-assistant.html">Voice Agent</a></li>
-              <li><a href="#">Integrations</a></li>
+              <li><a href="index.html#integrations">Integrations</a></li>
               <li><a href="https://cal.com/dental-clinic/30min?overlayCalendar=true" target="_blank" rel="noopener noreferrer">Pricing</a></li>
             </ul>
           </div>

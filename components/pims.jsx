@@ -22,7 +22,7 @@ function Pims() {
   const ref = useReveal();
   const doubled = [...PIMS_LIST, ...PIMS_LIST];
   return (
-    <section className="pims-home" ref={ref}>
+    <section className="pims-home" id="integrations" ref={ref}>
       <div className="pims-home-head reveal wrap">
         <div className="eyebrow">◦ Integrations</div>
         <h2 className="h-xl reveal reveal-delay-1" style={{ marginTop: 16 }}>
