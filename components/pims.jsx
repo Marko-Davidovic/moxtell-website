@@ -30,7 +30,8 @@ function Pims() {
           <span className="serif-italic" style={{ color: "var(--teal)" }}>your clinic already uses.</span>
         </h2>
         <p className="lede reveal reveal-delay-2" style={{ marginTop: 16, color: "var(--ink-2)", maxWidth: 560, marginLeft: "auto", marginRight: "auto" }}>
-          Emily connects to the systems used by 79% of North American veterinary clinics — no rip-and-replace required.
+          Emily connects to the systems used by 79% of North American veterinary clinics.<br/>
+          We work with your PIMS system already!
         </p>
       </div>
 
@@ -43,7 +44,7 @@ function Pims() {
       </div>
 
       <p className="pims-home-note reveal wrap">
-        Source: Kynetec PRJ17655, n=1,155 — North American PIMS market share, April 2026. &nbsp;
+        Source: Kynetec PRJ17655, n=1,155 — North American PIMS market share, April 2026<br/>
         <a href="https://cal.com/dental-clinic/30min?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
           Don't see yours? Ask us →
         </a>
