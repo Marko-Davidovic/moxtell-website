@@ -9,6 +9,7 @@ function App() {
       <ROI />
       <Solution />
       <HowItWorks />
+      <Pims />
       <Examples />
       {/* <PhotoStrip /> */}
       <Demo />
